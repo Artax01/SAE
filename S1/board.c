@@ -179,8 +179,17 @@ player get_winner(board game) {
 	for (int l = -1; l < 2; l++) {
 		for (int c = -1; c < 2; c++) {
 			cell cell = get_content(game, pos[0]+l, pos[1]+c);
-			if (cell == EMPTY) {
-				return NO_PLAYER;
+			if (is_hex(game)) {
+				if ((l != -1 || c != 1) && (l != 1 || c != -1)) {
+					if (cell == EMPTY) {
+						return NO_PLAYER;
+					}
+				}
+			}
+			else {
+				if (cell == EMPTY) {
+					return NO_PLAYER;
+				}
 			}
 		}
 	}
