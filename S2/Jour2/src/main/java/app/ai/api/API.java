@@ -11,7 +11,7 @@ import app.model.parser.JSONObject;
 import app.model.parser.JSONParser;
 
 public class API {
-    private static final String API_KEY = "AIzaSyDAKtno2l1lH4WZ2nJ2P04UttsbuxymCJU";
+    private static final String API_KEY = "";
     private static final String URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=" + API_KEY;
 
     /**
