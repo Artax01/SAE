@@ -1,0 +1,72 @@
+{
+	"world": "Lieumédiéval",
+	"places": [
+	{
+      "id": 0,
+      "name": "Place 0",
+      "description": "Description of Place 0",
+      "start": true,
+      "end": false,
+      "defeat": true,
+      "monster":  {
+       "name": "Monster 0",
+        "HP": 100,
+        "Armor": 10,
+        "Attack": 10
+      }
+    },
+	{
+      "id": 1,
+      "name": "Place 1",
+      "description": "Description of Place 1",
+      "start": false,
+      "end": true,
+      "defeat": false,
+      "monster":  {
+       "name": "Monster 1",
+        "HP": 100,
+        "Armor": 10,
+        "Attack": 10
+      }
+    },
+	{
+      "id": 2,
+      "name": "Place 2",
+      "description": "Description of Place 2",
+      "start": false,
+      "end": false,
+      "defeat": false,
+      "monster": null
+    },
+	{
+      "id": 3,
+      "name": "Place 3",
+      "description": "Description of Place 3",
+      "start": false,
+      "end": false,
+      "defeat": false,
+      "monster":  {
+       "name": "Monster 3",
+        "HP": 100,
+        "Armor": 10,
+        "Attack": 10
+      }
+    },
+	{
+      "id": 4,
+      "name": "Place 4",
+      "description": "Description of Place 4",
+      "start": false,
+      "end": true,
+      "defeat": true,
+      "monster": null
+    }
+],
+	"paths": [
+	{
+      "firstPlace": 0,
+      "secondPlace": 3,
+      "distance": 9
+    }
+	]
+}

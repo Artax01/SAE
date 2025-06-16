@@ -1,0 +1,32 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# JavaFX
+target/
+log/
+
+# Système
+.DS_Store
+Thumbs.db
+
+**/bin/
+**/out/
+**/target/
+
+*.class
+
+**/.idea
+**/.metadata
+**/.recommenders
+.DS_Store
+**/.project
+**/.classpath
+**/.settings

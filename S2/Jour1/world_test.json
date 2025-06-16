@@ -1,0 +1,40 @@
+{
+  "world": "world_test",
+  "places": [
+    {
+      "id": 1,
+      "name": "Point de départ",
+      "description": "Bienvenue dans le monde.",
+      "monster": {
+        "name": "Ogre Malveillant",
+        "hp": 50,
+        "armor": 100,
+        "attack": 60
+      },
+      "end": false,
+      "start": true,
+      "defeat": false
+    },
+    {
+      "id": 2,
+      "name": "Place du village",
+      "description": "Aller chercher du pain à la boulangerie et éviter le gobelin suspiceux.",
+      "monster": {
+        "name": "Gobelin suspicieux",
+        "hp": 150,
+        "armor": 25,
+        "attack": 70
+      },
+      "end": true,
+      "start": false,
+      "defeat": false
+    }
+  ],
+  "paths": [
+    {
+      "firstPlace": 1,
+      "secondPlace": 2,
+      "distance": 24
+    }
+  ]
+}
